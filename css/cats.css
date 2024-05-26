@@ -1,0 +1,69 @@
+header{
+    padding: 50px 50px;
+    font-size: 40px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(174, 124, 255);
+}
+.index, .help, .form, .catal, .c-cart, .wishlist{
+    margin-right: 5px;
+}
+.name{
+    text-align: center;
+    font-size: 43px;
+}
+.name:hover::after{
+    content: url('../image/Frame.png');
+    transform: translate(center) scale(100);
+    float: none;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+}
+.line{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+}
+.search{
+    padding: 10px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.add{
+    justify-content: flex-end;
+}
+.cartt{
+    height: 45px;
+    width: 45px;
+}
+.heartt{
+    height: 50px;
+    width: 50px;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    gap: 20px;
+}
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten{
+    padding: 10px;
+    background-color: bisque;
+}
+.item{
+    display: flex;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
+.cart, .heart{
+    width: 12%;
+    height: auto;
+}

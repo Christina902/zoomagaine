@@ -1,0 +1,63 @@
+.header{
+    padding: 50px 50px;
+    font-size: 40px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(174, 124, 255);
+}
+.logo, .name, .form, .catal, .c-cart, .wishlist{
+    margin-right: 5px;
+}
+.search{
+    padding: 10px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.add{
+    justify-content: flex-end;
+}
+.cart{
+    height: 45px;
+    width: 45px;
+}
+.heart{
+    height: 50px;
+    width: 50px;
+}
+.sec{
+    margin-bottom: 30px;
+}
+.png{
+    height: 300px;
+    width: 350px;
+    transition: background-color 1.5s;
+}
+.png:hover{
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 155, 0.4);
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+    gap: 10px;
+}
+a{
+    font-size: 30px;
+    text-align: center;
+}
+.description{
+    font-size: 20px;
+}
+.first, .second, .third, .fourth, .fifth, .sixth{
+    align-items: center;
+}
+.kitten:hover, .puppy:hover, .other:hover, .bird:hover, .fish:hover, .skidka:hover{
+    color: red;
+    font-size: 32px;
+}

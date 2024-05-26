@@ -1,0 +1,13 @@
+.a{
+  height: 300px;
+  width: 500px;
+  background-color: pink;
+  transition-duration: 0.5;
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-delay: 1;
+}
+.a:hover{
+  width: 200px;
+  height: 400px;
+}
